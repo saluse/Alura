@@ -17,5 +17,4 @@ SELECT
     B.CPF 
 FROM tabela_de_clientes A
 LEFT JOIN notas_fiscais B 
-    ON A.CPF = B.CPF
-    
+    ON A.CPF = B.CPF    
