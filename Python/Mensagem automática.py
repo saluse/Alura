@@ -15,7 +15,7 @@ input("Faça login no WhatsApp Web e pressione Enter")
 search_box = driver.find_element_by_xpath('//*[@id="side"]/div[1]/div/label/div/div[2]')
 
 # digitar o nome ou número do contato
-search_box.send_keys("Nome do contato")
+search_box.send_keys("Vida")
 search_box.send_keys(Keys.ENTER)
 
 # encontrar a caixa de mensagem
